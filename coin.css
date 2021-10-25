@@ -1,0 +1,99 @@
+body {
+    background-color: rgb(238, 220, 220);
+    color: rgb(245, 172, 78);
+    text-align: center;
+}
+
+.img1 {
+    background-color: rgb(238, 220, 220);
+    height: 300px;
+    width: 300px;
+    margin-bottom: 50px;
+    animation: 10s coin;
+
+}
+.img1:hover{
+    transform: rotateY(360deg);
+}
+
+@keyframes coin {
+    from {
+        transform: rotateY(0deg);
+    }
+
+    to {
+        transform: rotateY(360deg)
+    }
+}
+    h1 {
+        margin: 30px;
+        font-family: 'Rampart One', cursive;
+        text-shadow: 5px 0 #232931;
+        font-size: 8rem;
+
+    }
+
+    p {
+        font-size: 5rem;
+        margin: 3%;
+        font-family: 'Zen Antique Soft', serif;
+        color: rgb(255, 158, 31);
+    }
+
+    footer {
+
+        color: rgb(255, 158, 31);
+        font-family: 'Indie Flower', cursive;
+    }
+
+    /* media queries */
+
+ @media(max-width: 600px) {
+    body {
+        background-color: rgb(238, 220, 220);
+        color: rgb(245, 172, 78);
+        text-align: center;
+    }
+    
+    .img1 {
+        background-color: rgb(238, 220, 220);
+        height: 100px;
+        width: 100px;
+        margin-bottom: 5px;
+        animation: 10s coin;
+    
+    }
+    .img1:hover{
+        transform: rotateY(360deg);
+    }
+    
+    @keyframes coin {
+        from {
+            transform: rotateY(0deg);
+        }
+    
+        to {
+            transform: rotateY(360deg)
+        }
+    }
+        h1 {
+            margin: 30px;
+            font-family: 'Rampart One', cursive;
+            text-shadow: 5px 0 #232931;
+            font-size: 3rem;
+    
+        }
+    
+        p {
+            font-size: 2rem;
+            margin: 0.5%;
+            font-family: 'Zen Antique Soft', serif;
+            color: rgb(255, 158, 31);
+        }
+    
+        footer {
+    
+            color: rgb(255, 158, 31);
+            font-family: 'Indie Flower', cursive;
+        } 
+}
