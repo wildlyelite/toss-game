@@ -1,0 +1,33 @@
+/*************************************************TAG SELECTOR*************************************************/
+body {
+    background-color: antiquewhite;
+    font-size: large;
+    color: darkblue;
+    font-size: xx-large;
+    font-style: oblique;
+    background-image: url(https://www.chicken.org.au/wp-content/uploads/2018/05/DSC_12623.jpg);
+
+}
+
+h1 {
+    color: brown;
+    font-style: normal;
+}
+
+img {
+    background-color: darkred;
+}
+
+
+/*************************************************CLASS SELECTOR*************************************************/
+.p1 {
+    color: darkseagreen;
+}
+
+.p2 {
+    color: rgb(26, 145, 26);
+}
+
+.p3 {
+    color: rgb(4, 255, 4);
+}
