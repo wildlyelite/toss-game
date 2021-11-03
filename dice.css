@@ -22,6 +22,14 @@ h1 {
   color: #4ECCA3;
 }
 
+.h21 {
+ 
+  font-family:'Lobster family', cursive;
+ 
+  font-size: 3rem;
+  color: #f7e6e6;
+}
+
 p {
   font-size: 2rem;
   color: #4ECCA3;
@@ -45,7 +53,7 @@ footer {
 
 }
 .container2{
-  width: 10%;
+  width: 20%;
   color: #EEEEEE;
   margin-left: 2%;
   text-align: left;
