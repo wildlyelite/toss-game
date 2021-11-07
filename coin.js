@@ -5,7 +5,7 @@ var upper1=(player1.slice(0,1)).toUpperCase();
 var upper2=(Player2.slice(0,1)).toUpperCase();
 
 
-var randomnumber=Math.floor (Math.random()*12)+1;
+var randomnumber=Math.floor (Math.random()*11)+1;
 if(randomnumber == 1 || randomnumber == 4 || randomnumber == 6 || randomnumber == 7 || randomnumber == 10){
 document.querySelector(".img1").setAttribute("src","head.png");
 document.querySelector("h1").innerHTML=upper1+player1.slice(1,player1.length)+" - won";
